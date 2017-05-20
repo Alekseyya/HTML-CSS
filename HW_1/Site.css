@@ -1,0 +1,15 @@
+img {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    
+}
+.footer{
+	flex:0 0 auto;
+}
+
+h2{
+	
+	width: 300px;
+	margin:auto; 
+}
