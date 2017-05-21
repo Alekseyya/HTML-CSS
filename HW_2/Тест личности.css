@@ -1,0 +1,33 @@
+.LabelAgree{
+
+color: #4C9070;
+
+}
+.LabelDisagree{
+	color:  #94657E;
+}
+
+.header1{
+	align-items: center;
+}
+.note{
+
+font-size: 0.9em;
+color: #93948C;
+width: 100%;
+}
+
+.statement{
+	text-align: center;
+	font-weight: 600;
+}
+img{
+	
+    margin: auto;
+    
+}
+ table.center {
+	margin-left:auto; 
+    margin-right:auto;
+}
+ body {text-align:center;}

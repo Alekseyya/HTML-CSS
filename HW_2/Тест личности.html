@@ -3,14 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="Тест личности.css">
 </head>
 <body>
   <form action="index.html">
-  <div align="center">
+
+  <div class="header">
+      <table class="center">
+      <tr>
+        <td>
+          <img src="https://storage.googleapis.com/neris/public/images/test-header-1.png" alt="">
+          <div class="note">
+          <p>Тест занимает 12 минут!</p>
+          </div>
+          </td>
+          <td>
+            <img src="https://storage.googleapis.com/neris/public/images/test-header-2.png" alt="">
+            <div class="note">
+            <p>Отвечайте честно</p>
+            </div>
+          </td>
+          <td>
+            <img src="https://storage.googleapis.com/neris/public/images/test-header-3.png" alt="">
+            <div class="note">
+            <p>Постарайтесь не задавать "нейтральных" ответов.</p>
+            </div>
+          </td>
+      </tr>
+      </table>  
+ </div>
+      
+ 
+
+  <div class="statement">
     <p>Вам сложно представить себя другим людям</p> 
   </div>
   <div align="center" class="Agree">
-    <label for="agree">Согласен</label>
+    <label  class="LabelAgree" for="agree">Согласен</label>
     <input  id="agree" type="radio" name="choice">
     <input  id="agree" type="radio" name="choice">
     <input  id="agree" type="radio" name="choice">
@@ -20,14 +49,14 @@
     <input id="disagree" type="radio" name="choice">
     <input id="disagree" type="radio" name="choice">
     
-    <label for="disagree">Несогласен</label>
+    <label class="LabelDisagree" for="disagree">Несогласен</label>
   </div>
   
-  <div align="center">
+  <div class="statement">
     <p>Вы очень часто так погружаетесь в свои мысли, что не замечаете или <br> забываете об окружающих вас людях. </p> 
   </div>
   <div align="center" class="Agree1">
-    <label for="agree">Согласен</label>
+    <label  class="LabelAgree" for="agree">Согласен</label>
     <input  id="agree" type="radio" name="choice1">
     <input  id="agree" type="radio" name="choice1">
     <input  id="agree" type="radio" name="choice1">
@@ -37,14 +66,14 @@
     <input id="disagree" type="radio" name="choice1">
     <input id="disagree" type="radio" name="choice1">
     
-    <label for="disagree">Несогласен</label>
+    <label  class="LabelDisagree" for="disagree">Несогласен</label>
   </div>
   
-  <div align="center">
+  <div class="statement">
     <p>Вы стараетесь, по возможности, сразу же ответить на все электронные <br> письма и не можете выдержать беспорядок в папке “Входящие”.  </p> 
   </div>
   <div align="center" class="Agree2">
-    <label for="agree">Согласен</label>
+    <label  class="LabelAgree" for="agree">Согласен</label>
     <input  id="agree" type="radio" name="choice2">
     <input  id="agree" type="radio" name="choice2">
     <input  id="agree" type="radio" name="choice2">
@@ -54,7 +83,7 @@
     <input id="disagree" type="radio" name="choice2">
     <input id="disagree" type="radio" name="choice2">
     
-    <label for="disagree">Несогласен</label>
+    <label  class="LabelDisagree" for="disagree">Несогласен</label>
   </div>
   
   
