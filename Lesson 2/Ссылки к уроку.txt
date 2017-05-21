@@ -1,0 +1,4 @@
+https://jsfiddle.net/6a4g6j34/1/  - Якоря
+https://jsfiddle.net/owr55gqv/ - Формы
+https://jsfiddle.net/6a4g6j34/ - Установка спецсимволов
+https://websitebuilders.com/tools/html-codes/ - список спец символов
