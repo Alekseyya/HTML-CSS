@@ -1,0 +1,60 @@
+.row{
+position: relative;
+background: #e7e6d4;
+text-align:  left;
+height: 50px;
+}
+
+.row__menu{
+	position: absolute;
+	width: 360px;
+	left: 10px;
+	top:10px;
+	background: #ffffff; 
+}
+
+.row__menu li{
+	display: table-cell;
+  padding: 0 .7rem;
+}
+
+.ticker__photo{
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+	
+}
+
+.ticker__section{
+	display: inline-block;
+  	margin: 0 1.5%;
+  	width: 20%;
+}
+
+
+.ticker__title_huge{
+	font-size: xx-large;
+}
+
+.footer {
+  flex: 0 0 auto;
+  background: green;
+}
+
+.col__1-3 {
+  width: 30%;
+}
+.col__1-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col,
+.col__1-3{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col {
+  margin: 0 auto;
+  width: 100%;
+}
