@@ -14,8 +14,14 @@ height: 50px;
 }
 
 .row__menu li{
+	color: #ff7b29;
+}
+
+}
+.row__menu li{
 	display: table-cell;
-  padding: 0 .7rem;
+  	padding: 0 .7rem;
+  	
 }
 
 .ticker__photo{
@@ -25,6 +31,11 @@ height: 50px;
 
 	
 }
+
+.easy-breadcrumb a:hover {
+  color: #ff7b29;
+}
+
 
 .ticker__section{
 	display: inline-block;
@@ -78,5 +89,5 @@ height: 50px;
 .col__ServiceImg1{
 	float: left;
 	padding-right: 10px;
-	
+
 }
