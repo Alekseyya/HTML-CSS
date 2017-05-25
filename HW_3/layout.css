@@ -22,6 +22,7 @@ height: 50px;
   display: inline-block;
   margin: 0 1.5%;
   width: 30%;
+
 	
 }
 
@@ -29,6 +30,7 @@ height: 50px;
 	display: inline-block;
   	margin: 0 1.5%;
   	width: 20%;
+  	vertical-align: top;
 }
 
 
@@ -41,20 +43,44 @@ height: 50px;
   background: green;
 }
 
-.col__1-3 {
+.col__item1,
+.col__item2,
+.col__item3 {
   width: 30%;
 }
-.col__1-3 {
+.col__item1,
+ .col__item2,
+  .col__item3 {
   display: inline-block;
   vertical-align: top;
 }
 
 .col,
-.col__1-3{
+.col__item1,
+.col__item2,
+.col__item3{
   padding-left: 15px;
   padding-right: 15px;
 }
 .col {
   margin: 0 auto;
   width: 100%;
+}
+
+.col__item1 a{
+	color: red;
+	text-align: right;
+	text-decoration: none;
+}
+
+.col__imageServiceName{
+	float: left;
+	width: 10%;
+	margin: 0 1.5%;
+
+}
+.col__titleServiceName{
+	float: left;
+	width: 40%;
+	margin: 0 1.5%;
 }
