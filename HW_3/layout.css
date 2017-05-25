@@ -77,11 +77,6 @@ height: 50px;
 
 .col__ServiceImg1{
 	float: left;
-	margin: 0 1.5%;
+	padding-right: 10px;
 	
-}
-.col__ServiceTitle1{
-	text-align: left;
-	float: right;
-	margin: 0 1.5%;
 }
