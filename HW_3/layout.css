@@ -1,93 +1,134 @@
-.row{
-position: relative;
-background: #e7e6d4;
+.header{
+
+background: yellow;
 text-align:  left;
-height: 50px;
+padding: 2px;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
-.row__menu{
-	position: absolute;
-	width: 360px;
-	left: 10px;
-	top:10px;
-	background: #ffffff; 
+.row__item a{
+	text-decoration: none;
+
+}
+.row__item a:hover{
+	color: red;
+
+}
+.row__item{
+	list-style-type: none;
+
 }
 
 .row__menu li{
-	color: #ff7b29;
-}
-
-}
-.row__menu li{
+	float: left;
 	display: table-cell;
-  	padding: 0 .7rem;
+	padding-left: 0;
+  	padding: 0 5px; 
+  	vertical-align: top;
+  	padding-bottom: 5px; 
   	
 }
 
-.ticker__photo{
-  display: inline-block;
-  margin: 0 1.5%;
-  width: 30%;
+.header__input{
+	float: right;
 
+	padding-right: 100px;
+}
+
+
+
+
+.main-menu{
+	background: black;
+	
 	
 }
+.menu-nav{
+	padding: 0;
 
-.easy-breadcrumb a:hover {
-  color: #ff7b29;
 }
-
-
-.ticker__section{
+.menu-nav__link{
+	text-decoration: none;
 	display: inline-block;
-  	margin: 0 1.5%;
-  	width: 20%;
-  	vertical-align: top;
+	text-align: center;
+	box-sizing: border-box;
+	
+	color: #fff;
+
+}
+.menu-nav__link:hover{
+	color: red;
+
+}
+
+.menu-nav li{
+	padding-right:40px;
+	padding-left: 40px;
+	
+	display: table-cell;
+	list-style-type: none;
+  	/*padding: 0 .2rem;*/
 }
 
 
-.ticker__title_huge{
-	font-size: xx-large;
+
+.main-news{
+	position: relative;
+}
+
+.main-news__photo{
+	left: 0;
+	position: absolute;
+}
+.main-news__info{
+	top: 100px;
+	left: 446px;
+	position: absolute;
+}
+
+.main-news__link{
+	text-align: left;
+}
+
+.day-news{
+	padding-top: 470px;
+}
+
+.day-news__section{
+	position: relative;
+}
+.day-news__list-column1{
+	left: 0px;
+	position: absolute;
+}
+.day-news__list-column2{
+	left: 300px;
+	position: absolute;
+}
+
+.day-news__list-column3{
+	left: 600px;
+	position: absolute;
+}
+
+.main{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	flex-grow: 1;
+	
+}
+.wrapperPage{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .footer {
-  flex: 0 0 auto;
+	 	
+  
   background: green;
 }
 
-.col__item1,
-.col__item2,
-.col__item3 {
-  width: 30%;
-}
-.col__item1,
- .col__item2,
-  .col__item3 {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.col,
-.col__item1,
-.col__item2,
-.col__item3{
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.col {
-  margin: 0 auto;
-  width: 100%;
-
-}
-
-.col__item1 a{
-	color: red;
-	text-align: right;
-	text-decoration: none;
-}
-
-
-.col__ServiceImg1{
-	float: left;
-	padding-right: 10px;
-
-}
