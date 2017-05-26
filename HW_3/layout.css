@@ -1,15 +1,13 @@
-*{
-	margin:0;
-}
-
 .header{
 
 background: yellow;
 text-align:  left;
 position: fixed;
-top: 0;
-width: 99%;
+padding: 2px;
 padding-right: 30px;
+top: 0;
+right: 0;
+left: 0;
 
 }
 
@@ -38,6 +36,7 @@ padding-right: 30px;
 
  .header__input{
 	float: right;
+
 }
 
 .main-menu{
