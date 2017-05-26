@@ -37,9 +37,6 @@ width: 100%;
 	padding-right: 100px;
 }
 
-
-
-
 .main-menu{
 	background: black;
 	
@@ -96,21 +93,16 @@ width: 100%;
 	padding-top: 470px;
 }
 
-.day-news__section{
-	position: relative;
-}
+
 .day-news__list-column1{
-	left: 0px;
-	position: absolute;
+	display: inline-block;
 }
 .day-news__list-column2{
-	left: 300px;
-	position: absolute;
+	display: inline-block;
 }
 
 .day-news__list-column3{
-	left: 600px;
-	position: absolute;
+	display: inline-block;
 }
 
 .main{
@@ -118,6 +110,7 @@ width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
 	flex-grow: 1;
+
 	
 }
 .wrapperPage{
