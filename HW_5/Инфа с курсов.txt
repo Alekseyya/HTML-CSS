@@ -1,0 +1,134 @@
+У строчных элементов нету отступов.
+.inline{
+	display: inline-block;
+}
+
+Использование div. Блочное расположение.
+Строчное - для форматирование текста. Текст сделать красным. Использовать спан в данном случае.
+Проблема строчных эелементов: в строчные элементы нельзя поставить блочные.
+В даннном случае в блочных элементах больше свободы, можно больше впихнуть.
+
+.img-display{
+
+}
+
+.img-hidden{
+	display: none;/* скрыта*/
+}
+
+.img-visible{
+	
+}
+
+.img-invivsible{
+	visibility: hidden; /*скрывает элемент, но размер занимаем оставляется*/
+}
+
+Обтекание блоков
+
+.img-float{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+Как запретить обтекание (слева вданном случае):
+
+.img-float{
+	float: left;
+	margin: 0 10px 10px 0;\
+	clear: left;
+}
+
+Текст распологалсся строго под все элементами(both с обоих элементов): https://jsfiddle.net/eac7vua3/2/
+
+.no-float{
+	clear: both;
+}
+
+clearfix -обтекание по всей ширине запрещено https://jsfiddle.net/eac7vua3/3/
+.claerfix{
+	clear: both;
+}
+
+Псевдоэлемент after(в данном лучае отступ) https://jsfiddle.net/eac7vua3/4/
+
+.text:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+display-float-root
+
+Организация колонок. https://jsfiddle.net/eac7vua3/6/
+
+.row:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.col{
+	float: left;
+	width: 25%
+	border: 1px solid black;
+	padding:20px;
+	box-sizing: border-box;
+	margin-left: -1;
+
+
+}
+
+display: flex  https://jsfiddle.net/eac7vua3/7/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+.row{
+	display: flex;
+	flex-wrap: wrap; /*перенос колонок при изменении разрешения*/
+	}
+.col{
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+Технология flex  https://jsfiddle.net/eac7vua3/7/ где нужна гибкая техноголгия работа с колонками, правила переноса,
+получить правильную высоту для всх колонок
+.conteiner{
+	display: flex;
+	flex-wrap: wrap;   wrap-reverse - 
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background: orage;
+	margin:10 px;
+
+}
+
+align-tems  - выравнивание во всем контейнере
+
+Схлопывание
+
+
+
+
+Позиционирование position
+
+static, relatice, absolute, fixed, sticky
+
+static - значение по умолчанию
+relative - top, left - без изменения оставшего содержимого
+absolute- имеет в связке top,left,bottom,right 
+fixed - применяют для шапок(body{padding-top: 30px;}) и всплывающих окон
+sticky - начинает следовать тогда когда мы до него прокрутили
+
+z-index - https://jsfiddle.net/eac7vua3/10/
+
+Переполнение блоков:
+overflow -переполнение тега body, прокрутки(вставки кода, таблицы)
+
+overflow: hidden - все содержимое выходящее из блока будет скрыто
+overflow: auto - прокрутка в блоке
+overflow-x: hidden - по оси X запрещена
