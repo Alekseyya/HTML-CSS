@@ -1,0 +1,43 @@
+.wrapper{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.header{
+	background-color: white;
+
+}
+.header-wigth{
+	width: 100%;
+	max-width: 70%;
+	margin: 0 auto;
+	display: flex;
+	
+}
+.header-wigth__logo{
+	align-self: center;
+}
+.header-wigth__separator{
+	width: 40px;
+}
+.header-wigth-menu{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	background-color: pink;
+	align-self: center;
+}
+.header-wigth-menu__link{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.header-wigth__find-button{
+	background-color: blue;
+	align-self: center;
+	padding: 10px;
+}
+.header-wigth__login-butto{
+	width: 100;
+	background-color: red;
+}
