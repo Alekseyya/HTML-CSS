@@ -250,6 +250,7 @@
 .top-event{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	
 	
 }
@@ -294,7 +295,7 @@
 	top: 120px;
 	left: 75px;
 }
-.top-event__icon-color{
+.top-event__icon-color_green{
 
 	position: absolute;
 	border-radius: 20px 20px 20px 20px;
@@ -303,7 +304,7 @@
 	margin-top: 3px;
 	background: green;
 }
-.top-event__icon-color img{
+.top-event__icon-color_green img{
 	margin:7px;
 }
 
@@ -322,7 +323,22 @@
 	color: #2ab468;
 	text-align: center;
 	width: 100%;
+	font-weight:750;
 }
 .top-event__likes span{
 	margin-left: 3px;
+}
+.top-event__icon-color_orange{
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 3px;
+	margin-right: 2px;
+	margin-top: 3px;
+	background: orange;
+}
+.top-event__icon-color_orange img{
+	margin:7px 10px 7px 7px;
+}
+.top-event__separator-block_orange{
+	display: flex;
 }
