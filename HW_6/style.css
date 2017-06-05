@@ -291,7 +291,8 @@
 	width: 50px;
 	background: white;
 	bottom: 30px;
-	/*right: 75px;*/
+	top: 120px;
+	left: 75px;
 }
 .top-event__icon-color{
 
@@ -307,5 +308,21 @@
 }
 
 .top-event__descriptions{
+	padding: 10px 20px 0;
 	background: yellow;
+	color: #6d7887;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+.top-event__vision-agency{
+	color: #2ab468;
+	text-align: center;
+	width: 100%;
+}
+.top-event__likes span{
+	margin-left: 3px;
 }
