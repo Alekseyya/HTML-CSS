@@ -5,39 +5,159 @@
 }
 .header{
 	background-color: white;
+	/*height: 75px;*/
+
 
 }
-.header-wigth{
-	width: 100%;
+.header-wigth{	
 	max-width: 70%;
 	margin: 0 auto;
-	display: flex;
-	
+	display: flex;	
+	justify-content: space-around;
 }
 .header-wigth__logo{
 	align-self: center;
+	
 }
 .header-wigth__separator{
-	width: 40px;
+	width: 100px;	
 }
+
+
 .header-wigth-menu{
 	display: flex;
-	justify-content: space-between;
-	padding: 5px;
-	background-color: pink;
-	align-self: center;
+	background-color: white;
+	padding: 0;
+	flex-wrap: wrap;
+
 }
 .header-wigth-menu__link{
 	text-decoration: none;
 	list-style-type: none;
+	padding: 5px;
+	
 }
 
-.header-wigth__find-button{
-	background-color: blue;
-	align-self: center;
-	padding: 10px;
+.header-wigth__find-button{	
+	background-color: #e2dee0;
+	width: 40px;
+	padding: 15px;	
 }
-.header-wigth__login-butto{
-	width: 100;
-	background-color: red;
+
+.header-wigth__login-button{	
+	background-color: #e94e38;
+	/*width: 100%;*/
+	padding: 20px 40px;
+	color: white;
+}
+.header-wigth__login-button img{
+	margin-right: 10px;
+}
+
+.find-event{
+	background-image: url(img/dubai.png);
+	height: 450px;
+	width: 100%;
+	margin: 0;
+}
+
+.find-panel{	
+	width: 30%;
+	margin: 0 auto;
+	padding: 40px;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
+.find-panel__title{
+	color: white;
+	font-family: 'Bubbler One', sans-serif;
+	text-align: center;
+
+}
+.find-panel__find-sity{
+	width: 220px;
+	border-radius: 20px 20px;
+	overflow: hidden;
+	background: url(img/font.png) no-repeat 190px 20px;
+	background-color: #5e5e5e; 
+	display: inline-block;
+
+}
+
+.find-panel__select{
+	background-color: #5e5e5e;
+	margin: 10px 10px;
+	width: 170px;
+	border-style: none;
+	width: 250px;
+	background: transparent;
+	-webkit-appearance:none;
+}
+.find-panel__find-type-event{
+	margin-left:23px;
+	width: 220px;
+	border-radius: 20px 20px;
+	overflow: hidden;
+	background: url(img/font.png) no-repeat 190px 20px;
+	background-color: #5e5e5e; 
+	display: inline-block;
+}
+.find-panel__search-by-name{
+	width: 425px;
+	border-radius: 20px 20px;
+	background-color: #5e5e5e;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0;
+
+}
+.find-panel__find-button{
+	display: inline-block;
+	align-self: center;
+	border-radius: 20px 20px;
+	background-color: #e94e38;
+	padding: 10px 10px;
+	width: 100px;
+	text-align: center;
+	color: white;
+	margin: 10px 170px;
+}
+.wrapper-body{
+	width: 70%;
+	margin: 0 auto;
+}
+.filter{
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter__menu{
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+.filter__menu-item{
+	padding: 0 10px ;
+	list-style-type: none;
+	
+}
+.filter__menu-item a{
+	text-decoration: none;
+	color: #96a6a7
+
+}
+
+.filter__select{
+	border-radius: 1px solid black;
+	border-radius: 20px 20px;
+	width: 130px;
+	overflow: hidden;
+	background: url(img/font.png) no-repeat 110px 5px;
+}
+.filter__select-sity{
+	width: 150px;
+	background: transparent;
 }

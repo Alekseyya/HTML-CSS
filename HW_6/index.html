@@ -11,6 +11,7 @@
 			<div class="header-wigth">
 				<div class="header-wigth__logo"><img src="img/duhoot.png" alt=""></div>
 				<div class="header-wigth__separator"></div>
+				
 				<ul class="header-wigth-menu">
 					<li class="header-wigth-menu__link">Reality</li>
 					<li class="header-wigth-menu__link">Living</li>
@@ -19,35 +20,48 @@
 					<li class="header-wigth-menu__link">Mobility</li>
 				</ul>
 				<div class="header-wigth__find-button"><img src="img/find.png" alt=""></div>
-				<div class="header-wigth__login-button"><img src="img/" alt=""></div>
+				<div class="header-wigth__login-button"><img src="img/login.png" alt="">Login</div>
+				
 			</div>
 		</header>
 		<div class="find-event">
 			<div class="find-panel">
-				<div class="find-panel__title"><p>What are you looking for?</p></div>
-					<select name="" id="" class="find-panel__find-sity">
-						<option value="Dubai">Dubai</option>
-					</select>
-					<select name="" id="" class="find-panel__find-type-event">
-						<option value="Education">Education</option>
-					</select>
-					<input type="text" class="find-panel__search-by-name">
-					<button class="find-panel__find-button">Search</button>
+				<div class="find-panel__title"><h3>What are you looking for?</h3></div>
+					<div class="find-panel__find-sity">
+						<select name="" id="" class="find-panel__select">
+							<option value="Dubai">Dubai</option>
+						</select>
+					</div>
+					<div class="find-panel__find-type-event">
+						<select name="" id="" class="find-panel__select">
+							<option value="Education">Education</option>
+						</select>
+					</div>
+					
+					<input type="text" placeholder="Keyword,name, date,..." class="find-panel__search-by-name">
+					<a class="find-panel__find-button">SEARCH</a>
+					
+					
+					
+					
 			</div>
 		</div>
-		<div class="options-filter">
+		
+		<div class="wrapper-body">
+
 			<div class="filter"> <!-- сделать через justifu - по всему блоку -->
 				<ul class="filter__menu"> <!-- justifu по всему блоку -->
-					<li class="filter__recommended">Recommended</li> 
-					<li class="filter__latest">Latest</li>
-					<li class="filter__highlights">Highlight</li>
+					<li class="filter__menu-item"><a href="">Recommended</a></li> 
+					<li class="filter__menu-item"><a href="">Latest</a></li>
+					<li class="filter__menu-item"><a href="">Highlight</a></li>
 				</ul>
 				<div class="filter__select">
 					<select name="" id="" class="filter__select-sity">
-						<option value="Dubai"></option>
+						<option value="Dubai">Dubai</option>
 					</select>
 					<button class="filter__select-button">Hide Map <img src="img/dot.png" alt=""></button>
 				</div>
+				
 				<div class="filter__objects">
 					<div class="filter__object-sign">Filter:</div>
 					<div class="filter__object-icons">
@@ -59,8 +73,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="wrapper-body">
+			
 			<div class="posts">
 				<div class="top-event">
 					<div class="top-event__house"> <!-- background-img -->
