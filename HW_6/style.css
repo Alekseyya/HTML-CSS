@@ -35,6 +35,7 @@
 	text-decoration: none;
 	list-style-type: none;
 	padding: 5px;
+	color: #96a6a7;
 	
 }
 
@@ -137,11 +138,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-self: center;
-
+	padding: 0;
 	
 }
 .filter__menu-item{
-	padding: 0 10px ;
+
+	padding-right: 10px;
 	list-style-type: none;
 	
 }
@@ -186,9 +188,8 @@
    border: 1px solid #e3e7e8;
    background: green;
    color: white;
-  
-
 }
+
 .filter__objects{
 	display: flex;
 
@@ -211,7 +212,6 @@
 	height: 40px;
 	width: 40px;
 
-	
 }
 
 .filter__img{
@@ -242,4 +242,70 @@
 }
 .filter__img_purple{
 	background: purple;
+}
+
+.offer{
+	padding-top: 400px;
+}
+.top-event{
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+.top-event__item{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px 0 0 0;
+	width: 210px;
+	justify-content: center;
+	position: relative;
+}
+.top-event__img{
+	/*position: relative;*/
+	height: 140px;
+	
+}
+/*.top-event__img img{
+
+	width: 210px;
+	height: 150px;
+}*/
+.top-event__cost{
+	position: absolute;
+	background: #1baf5d;
+	border-radius: 20px 20px;
+	right: 10px;
+	top: 10px;
+	padding: 0 5px;
+	color: white;
+}
+.top-event__separator-block_green{
+	display: flex;
+	/*margin-top: 0;*/
+}
+.top-event__icon{
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	height: 50px;
+	width: 50px;
+	background: white;
+	bottom: 30px;
+	/*right: 75px;*/
+}
+.top-event__icon-color{
+
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 3px;
+	margin-right: 2px;
+	margin-top: 3px;
+	background: green;
+}
+.top-event__icon-color img{
+	margin:7px;
+}
+
+.top-event__descriptions{
+	background: yellow;
 }
