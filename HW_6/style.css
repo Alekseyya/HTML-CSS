@@ -136,6 +136,7 @@
 .filter__menu{
 	display: flex;
 	justify-content: space-between;
+	align-self: center;
 
 	
 }
@@ -151,13 +152,81 @@
 }
 
 .filter__select{
-	border-radius: 1px solid black;
-	border-radius: 20px 20px;
-	width: 130px;
-	overflow: hidden;
-	background: url(img/font.png) no-repeat 110px 5px;
+	/*border-radius: 1px solid black;*/
+	display: flex;
+	/*background-color: black;
+	background: url(img/font.png) no-repeat 110px 5px;*/
+	align-self: center;
+
 }
-.filter__select-sity{
-	width: 150px;
-	background: transparent;
+.filter__select-item select{
+	padding: 10px;
+	align-self: center;	
+	border-radius: 20px 20px;
+	margin: 0 5px;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: transparent;
+   border: 1px solid #e3e7e8;
+  /* border: 1px solid #ccc;*/
+   background: url(img/font2.png) 96% / 15% no-repeat #fff;
+	color: red;
+
+}
+.filter__button-option{
+	padding-right: 10px;
+	
+}
+.filter__select-item button{
+	padding: 10px;
+	align-self: center;	
+	border-radius: 20px 20px;
+	margin: 0 5px;	
+   border: 1px solid #e3e7e8;
+   background: green;
+   color: white;
+  
+
+}
+.filter__objects{
+	display: flex;
+
+}
+.filter__object-sign{
+	color: #96a6a7;
+	align-self: center;
+	margin-right: 5px;
+}
+.filter__object-icons{
+	/*background-color: black;*/
+	display: flex;
+	padding: 5px;
+}
+.filter__object-icons-item{
+	border-radius: 20px 20px 20px 20px;
+	background: green;
+	margin: 0 5px;
+	align-self: center;
+	height: 40px;
+	width: 40px;
+
+	
+}
+
+.filter__img{
+	margin: 10px 10px;
+
+}
+.filter__img_house{
+	margin-left: 8px;
+}
+.filter__img_people{
+	margin-left: 12px;
+}
+.filter__img_education{
+	margin-left: 5px;
+}
+.filter__img_bus{
+	margin-left: 10px;
 }
