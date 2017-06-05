@@ -218,15 +218,28 @@
 	margin: 10px 10px;
 
 }
-.filter__img_house{
+.filter__img-house{
 	margin-left: 8px;
 }
-.filter__img_people{
+.filter__img-people{
 	margin-left: 12px;
 }
-.filter__img_education{
+.filter__img-education{
 	margin-left: 5px;
 }
-.filter__img_bus{
-	margin-left: 10px;
+.filter__img-bus{
+	margin-left: 11px;
+}
+.filter__img_grey{
+	background: #b6c0c1;
+}
+.filter__img_green{
+	background: green;
+
+}
+.filter__img_orange{
+	background:orange;
+}
+.filter__img_purple{
+	background: purple;
 }
