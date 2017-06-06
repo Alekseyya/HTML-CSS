@@ -340,5 +340,10 @@
 	margin:7px 10px 7px 7px;
 }
 .top-event__separator-block_orange{
-	display: flex;
+	position: absolute;
+	top: 125px;
+}
+.top-event__separator-block_purple{
+	position: absolute;
+	top: 125px;
 }
