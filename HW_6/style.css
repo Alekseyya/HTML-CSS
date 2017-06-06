@@ -244,9 +244,6 @@
 	background: purple;
 }
 
-.offer{
-	padding-top: 400px;
-}
 .top-event{
 	display: flex;
 	justify-content: space-between;
@@ -340,10 +337,80 @@
 	margin:7px 10px 7px 7px;
 }
 .top-event__separator-block_orange{
-	position: absolute;
-	top: 125px;
+	/*position: absolute;
+	top: 125px;*/
+	display: flex;
+}
+.top-event__long-beach{
+	text-align: center;
+	width: 100%;
+	color: #f5b85b;
 }
 .top-event__separator-block_purple{
+	/*position: absolute;
+	top: 125px;*/
+	display: flex;
+}
+.top-event__icon-color_purple{
+
 	position: absolute;
-	top: 125px;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 3px;
+	/*margin-right: 2px;*/
+	margin-top: 2px;
+	background: purple;
+}
+.top-event__icon-color_purple img{
+	margin: 7px 10px 6px;
+}
+.top-event__bus-trance{
+	text-align: center;
+	width: 100%;
+	color: #9055a3;
+}
+.offer{
+	
+}
+.offer__title{
+	/*width: 100%;*/
+	text-align: center;
+	line-height: 5px;
+}
+.offer__title p{
+	color: #c8cecf;
+}
+.offer__list-icons{
+	display: flex;
+	margin: 40px 40px 30px;
+	justify-content: space-between;
+
+}
+.offer__list-icons-border{
+	border: 2px solid green;
+	border-radius: 50px 50px 50px 50px;
+	height: 105px;
+	width: 105px;
+}
+.offer__list-icons-item{
+	border-radius: 50px 50px 50px 50px;
+	/*background: yellow;*/
+	height: 105px;
+	width: 105px;
+}
+.offer__list-icons-item img{
+	margin: 30px 15px 30px 25px;
+}
+.offer__list-icons img[src$="people.png"]{
+	margin: 30px 20px 30px 32px;
+}
+.offer__list-icons img[src$="education.png"]{
+	margin: 35px 15px 30px 25px;
+}
+.offer__list-icons img[src$="bus.png"]{
+	margin: 30px 15px 35px 30px;
+}
+.offer__sign{
+	text-align: center;
+	color: green;
+	font-weight: 800;
 }
