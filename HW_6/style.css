@@ -466,5 +466,52 @@
 	width: 100%;
 }
 .footer__top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subscribe{
+	margin: 40px 0;
+	width: 490px;
 
+}
+.subscribe__title{
+	color: white;
+	font-weight: 800;
+	text-align: center;
+}
+.subscribe__enter-mail{
+	border-radius: 20px 20px;
+	display: flex;
+	height: 65px;
+	background: #5a5453;
+	color: white;
+	align-items: center;
+}
+.subscribe__button{
+	background: #e94e38;
+	border-radius: 20px 20px;
+	margin-right: 5px;
+	margin-left: auto;
+	height: 55px;
+	width: 125px;
+	display: flex;
+
+}
+.subscribe__button button{
+	margin: auto;
+	height: 52px;
+	width: 100px;
+	background: transparent;
+	border-style: none;
+	color: white;
+	font-weight: 600;
+}
+.subscribe__img{
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.subscribe__text{
+	padding-bottom: 3px;
+	margin-right: auto;
 }
