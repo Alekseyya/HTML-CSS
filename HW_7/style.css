@@ -1,0 +1,9 @@
+.container{
+	background: yellow;
+}
+.row__list{
+	background: green;
+}
+.column .row__item:first-child{
+	background: gray;
+}
