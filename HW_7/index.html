@@ -3,28 +3,81 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 	<title>Bootstrap project</title>
 </head>
-<body>
-	<div class="container">
-		<div class="row">
-		  <div class="col-md-8 row__list">Hello
-		  	<div class="column">
-		  		<div class="col-md-8 row__item">
-		  			moto
-		  		</div>
-		  		<div class="col-md-4 row__item">
-		  			Вася
-		  		</div>
-		  	</div>
-		  </div>
-		  <div class="col-md-4 row__list">.col-md-1</div>
+<body>		
+	<div class="header">			
+		<div class="header__top">
+			<div class="container">
+				<div class="header__logo col-md-3">
+					<div class="header__logo-img col-md-3">
+						<img src="img/logo-img.png" alt="">
+					</div>						
+					<div class="header__logo-description col-md-9">
+						<div class="header__title"><h2>travler</h2></div>
+						<p>Get the advice you need about travel</p>
+					</div>
+				</div>
+				<div class="quick-link col-md-4 col-md-offset-2">
+					<div class="quick-link__button col-md-5">
+						<button>Quicklink</button>
+						<img src="img/map-pin.png" alt="">
+					</div>
+					<div class="quick-link__separator col-md-1">
+						<div class="separaror_grey"></div>
+					</div>
+					<div class="quick-link__select col-md-6">
+						<select class="form-control" name="" id="">
+							<option value="1">Select from dropdown</option>
+							<option value="Minsk">Minsk</option>
+							<option value="SPB">SPB</option>
+						</select>
+					</div>
+				</div>
+				<div class="search col-md-3">
+					<div class="search__input col-md-12">
+						<input class="col-md-10" placeholder="Search for something here" type="text">
+						<img  class="col-md-2" src="img/clock.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+		<div class="container">
+			<div class="navigation-menu">
+				<nav class="navigation-menu__list">
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/travel-guide.png" alt=""></div>
+						<div class="navigation-menu__name">Travel Guide</div>	
+					</div>
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/services.png" alt=""></div>
+						<div class="navigation-menu__name">Services</div>
+					</div>
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/about.png" alt=""></div>
+						<div class="navigation-menu__name">About</div>
+					</div>
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/tour.png" alt=""></div>
+						<div class="navigation-menu__name">The Tour</div>
+					</div>
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/travel-guide.png" alt=""></div>
+						<div class="navigation-menu__name">How to</div>
+					</div>
+					<div class="navigation-menu__item col-md-2">
+						<div class="navigation-menu__img"><img src="img/about.png" alt=""></div>
+						<div class="navigation-menu__name">Contact</div>
+					</div>
+				</nav>
+			</div>
 		</div>
 	</div>
-	
-	
+	</div>
+
 </body>
 </html>
